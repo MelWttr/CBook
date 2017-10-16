@@ -17,24 +17,7 @@ def cook_book_filling(file_name):
             cook_book[dish] = ingridients_list
             ingridients_list = []
             f.readline()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
 def get_shop_list_by_dishes(dishes, person_count):
     shop_list = {}
     for dish in dishes:
